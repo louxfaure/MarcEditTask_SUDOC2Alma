@@ -13,6 +13,17 @@ Ces instructions permettent de :
 
 ### Télécharger et installer MarcEdit
 https://marcedit.reeset.net/downloads
-La suite du tutoriel est basé sur une interface en français. Pour modifier la langue 
 
-### Installer les tasks 
+### Installer les instructions 
+1. Télécharger [l'instruction disponible sur ce dépot ](Sudoc2Alma.txt)
+2. Ouvrir l'éditeur de métadonnées (Marc Editor) ![Marc Editor](/img/Capturel.PNG)
+3. Aller dans le Menu "Tools" puis sur "Manage Tasks"
+4. Dans le Task Manager, dans la colonne de droite "Manage Existing Task",sélectionner l'option "Import Task File"
+5. Charger le fichier "Sudoc2Alma.txt" ![Marc Editor](/img/Capture2.PNG)
+
+### Modifier par lot les fichiers SUDOC 
+Avant de pouvoir utiliser nos instructions de transformation il est nécessaire de les convertir au format propre à MarcEdit (.mrk)
+1. Rassembler les fichiers fournis par l'Abes dans un répertoire unique
+2. A partir de l'écran d'accueil, aller dans "Tools">"Marc Processing Tools">"Batch Process Records" ![Marc Editor Tools](/img/Capture3.PNG)
+3. Sélectionner le répertoire où sont stockées les notices SUDOC et la fonction "From Marc To Mnemonic" [Batch Process Records](/img/Capture3.PNG)  
+
