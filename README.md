@@ -16,14 +16,17 @@ https://marcedit.reeset.net/downloads
 
 ### Installer les instructions 
 1. Télécharger [l'instruction disponible sur ce dépot ](Sudoc2Alma.txt)
-2. Ouvrir l'éditeur de métadonnées (Marc Editor) ![Marc Editor](/img/Capturel.PNG)
+2. Ouvrir l'éditeur de métadonnées (Marc Editor) ![Marc Editor](/img/Capture1.PNG)
 3. Aller dans le Menu "Tools" puis sur "Manage Tasks"
 4. Dans le Task Manager, dans la colonne de droite "Manage Existing Task",sélectionner l'option "Import Task File"
 5. Charger le fichier "Sudoc2Alma.txt" ![Marc Editor](/img/Capture2.PNG)
 
 ### Modifier par lot les fichiers SUDOC 
 Avant de pouvoir utiliser nos instructions de transformation il est nécessaire de les convertir au format propre à MarcEdit (.mrk)
-1. Rassembler les fichiers fournis par l'Abes dans un répertoire unique
-2. A partir de l'écran d'accueil, aller dans "Tools">"Marc Processing Tools">"Batch Process Records" ![Marc Editor Tools](/img/Capture3.PNG)
-3. Sélectionner le répertoire où sont stockées les notices SUDOC et la fonction "From Marc To Mnemonic" [Batch Process Records](/img/Capture3.PNG)  
-
+1. Convetir les notices au format mrk
+   1. Rassembler les fichiers fournis par l'Abes dans un répertoire unique
+   2. A partir de l'écran d'accueil, aller dans "Tools">"Marc Processing Tools">"Batch Process Records" ![Marc Editor Tools](/img/Capture3.PNG)
+   3. Sélectionner le répertoire où sont stockées les notices SUDOC et choisir la fonction "From Marc To Mnemonic" [Batch Process Records](/img/Capture4.PNG)  
+   4. Le système va convertir tous les fichiers .RAW au format .mrk. **En fonction des capacités de votre machine l'opération peut prendre plus ou moins de temps !**
+   5. Les notices 
+2. 
