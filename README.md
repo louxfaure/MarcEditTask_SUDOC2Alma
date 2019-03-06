@@ -26,13 +26,13 @@ Avant de pouvoir utiliser nos instructions de transformation il est nécessaire 
 1. Convertir les notices au format mrk
    1. Rassembler les fichiers fournis par l'Abes dans un répertoire unique **En fonction des capacités de votre machine l'opération peut prendre plus ou moins de temps !**
    2. A partir de l'écran d'accueil, aller dans "Tools">"Marc Processing Tools">"Batch Process Records" ![Marc Editor Tools](/img/Capture3.PNG)
-   3. Sélectionner le répertoire où sont stockées les notices SUDOC et choisir la fonction "From Marc To Mnemonic" [Batch Process Records convert to MRK](/img/Capture4.PNG)  
+   3. Sélectionner le répertoire où sont stockées les notices SUDOC et choisir la fonction "From Marc To Mnemonic" ![Batch Process Records convert to MRK](/img/Capture4.PNG)  
    4. Le système va convertir tous les fichiers .RAW au format .mrk. **En fonction des capacités de votre machine l'opération peut prendre plus ou moins de temps !**
    5. Les notices transformées seront stockées dans le répertoire "processed_files" sous votre répertoire de travail
 2. Transformer les notices SUDOC
    1. Rester dans le module "Batch Process Records"
    2. Sélectionner le répertoire "processed_files" où ont été stockées les notices au format .mrk
-   3. Sous le menu Task, coché l'option "Load Tasks" puis sélectionner les instructions "Sudoc2Alma.txt" [Batch Process Records Load Tasks](/img/Capture4.PNG)  
+   3. Sous le menu Task, coché l'option "Load Tasks" puis sélectionner les instructions "Sudoc2Alma.txt" ![Batch Process Records Load Tasks](/img/Capture5.PNG)  
    4. Lancer le traitement. 
    5. Les notices transformées seront stockées sous [votre répertoire de travail]/processed_files/processed_files
 3. Convetir les notices du format mrk vers unimarc
