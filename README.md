@@ -40,4 +40,4 @@ Avant de pouvoir utiliser nos instructions de transformation il est nécessaire 
    2. Sélectionner le répertoire où se trouvent les notices transformées [votre répertoire de travail]/processed_files/processed_files
    3. Sélectionnées la fonction "From Mnemonic to Marc"
    4. Lancer le traitement
-   5. C'est prêt !!!
+   5. C'est prêt !
