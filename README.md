@@ -1,6 +1,8 @@
 # MarcEditTask_SUDOC2Alma
 Combinaison d'instructions à importer et exécuter dans MarcEdit afin de mettre en forme des notices SUDOC avant de les charger dans Alma
-
+_Avant d'envisager une migration depuis le SUDOC, il est nécessaire :
+  * de vous assurer que votre base locale est correctement synchronisée avec le système universitaire de documentation
+  * que les identifiants systèmes des notices bibliographiques dans votre sigb soient versés dans le SUDOC_
 ## Présentation
 Ces instructions permettent de :
   * Préfixer le PPN de la notice (Champ 001) par (PPN)
